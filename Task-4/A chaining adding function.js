@@ -24,7 +24,7 @@ addTwo(3)(5); // 10
 // solution
 
 function add(n){
-  var fn = function(x) {
+  let fn = function(x) {
     return add(n + x);
   };
   
