@@ -17,8 +17,8 @@ The middle character(s) of the word represented as a string.
 function getMiddle(str)
 {
   //Code goes here!
-  var len = str.length;
-  var middle = Math.floor(len/2);
+  let len = str.length;
+  let middle = Math.floor(len/2);
   if(len % 2 === 0){
   return str[middle - 1] + str[middle]
   }
