@@ -17,7 +17,7 @@ Be sure that words with chars like -, ', ` are counted right.
 
 function countWords(str) {
 
-var words = str.match(/[a-zA-Z0-9\-'`]+/g);
+let words = str.match(/[a-zA-Z0-9\-'`]+/g);
 
     return (str == '' || !words) ? 0 : words.length;
 
