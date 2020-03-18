@@ -1,16 +1,16 @@
 
 var items = [1, 2, 3, 4, 5, 6];
 function isEven(n) {return n % 2 == 0}
-var i = partitionOn(isEven, items);
+let i = partitionOn(isEven, items);
 
 
 
 
 
 function partitionOn(pred, items) {
-    var count = 0;
-    var odd = [];
-    var even = [];
+    let count = 0;
+    let odd = [];
+    let even = [];
     for(var i in items){
         if(!pred(items[i])){
             count ++;
