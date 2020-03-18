@@ -21,9 +21,9 @@ obj.hash('person.animal.pet.needNoseAntEater'); // undefined
 
 Object.prototype.hash = function(string) {
 
-    var array = string.split( "." );
+    let array = string.split( "." );
 
-    for (var i = 0; i < array.length; i++ ) {
+    for (let i = 0; i < array.length; i++ ) {
 
     if(obj[array[i]]== undefined){
 
